@@ -5,7 +5,7 @@ public class FindPosition {
         int arr[] = new int[]{3, 5, 7, 9, 10, 90,
                 100, 130, 140, 160, 170};
         // If target would be 170, it is going to give an index out of range exception. But in this
-        // question we assume that our array size is infinite... For further explanation please visit
+        // question we assume that our array's size is infinite... For further explanation please visit
         // the link that I shared above.
         System.out.println(search(arr,10));
     }
