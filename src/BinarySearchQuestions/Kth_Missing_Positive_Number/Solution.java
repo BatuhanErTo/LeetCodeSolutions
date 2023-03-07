@@ -1,5 +1,5 @@
 package BinarySearchQuestions.Kth_Missing_Positive_Number;
-// Kth Missing Positive Number
+// https://leetcode.com/problems/kth-missing-positive-number/
 class Solution {
     public int findKthPositive(int[] arr, int k) {
         int start = 0;
