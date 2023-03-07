@@ -5,8 +5,8 @@ package BinarySearchQuestions.Count_Negative_Numbers_in_a_Sorted_Matrix;
  */
 class Solution {
     public int countNegatives(int[][] grid) {
-        int row =0;
-        int counter =0;
+        int row = 0;
+        int counter = 0;
         while(row < grid.length){
             int end = grid[0].length -1;
             int start = 0;
