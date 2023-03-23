@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class SolutionOptimized {
     public static void main(String[] args) {
-        int[] nums = {0,4,3,0,4};
+        int[] nums = {3,5};
         System.out.println(specialArray(nums));
     }
     static int specialArray(int[] nums) {
