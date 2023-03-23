@@ -8,7 +8,6 @@ public class SolutionOptimized {
         System.out.println(specialArray(nums));
     }
     static int specialArray(int[] nums) {
-        Arrays.sort(nums);
         int left = 0;
         int right = nums.length;
         while(left <= right){
