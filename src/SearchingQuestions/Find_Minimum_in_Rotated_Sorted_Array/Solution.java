@@ -8,7 +8,6 @@ class Solution {
         }
         return nums[peak+1];
     }
-
     public int findPeak(int[] nums){
         int start = 0;
         int end = nums.length - 1;
